@@ -7,7 +7,7 @@ describe('NavBar Component', () => {
         expect(
             await screen.findByRole('heading', {
                 level: 2,
-                name: /Treinamento Tabata/
+                name: /Treinamento HIIT/
             })
         )
     })

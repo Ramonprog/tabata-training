@@ -1,4 +1,4 @@
 export type AllTimes = {
-  training: string;
-  rest: string;
+  training: number;
+  rest: number;
 };

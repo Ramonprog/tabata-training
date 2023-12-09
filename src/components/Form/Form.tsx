@@ -23,7 +23,7 @@ const Form = ({ func, setCycle, handleSubmit }: IFormProps) => {
                 </div>
                 <div className={styles.field}>
                     <label htmlFor="cycle">Ciclos</label>
-                    <Input type='number' className={styles.input} placeholder='Quantidade de rodadas' name='cycle' min={0} onChange={(e) => setCycle(e.target.value)} />
+                    <Input required type='number' className={styles.input} placeholder='Quantidade de rodadas' name='cycle' min={0} onChange={(e) => setCycle(e.target.value)} />
                 </div>
 
                 <Button onClick={handleSubmit} className={`button ${styles.button}`}>Iniciar Treinamento</Button>
