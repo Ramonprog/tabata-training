@@ -1,14 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 * {
-  width: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
 }
 
 :root {
   --cor-primaria: #3498db; /* Azul Padrão */
   --cor-secundaria: #2ecc71; /* Verde Padrão */
   --cor-destaque: #e74c3c; /* Vermelho Padrão */
-  --cor-fundo: #ecf0f1; /* Cinza Padrão */
+  --cor-fundo: #fafafa; /* Cinza Padrão */
   --cor-texto-principal: #333; /* Preto Padrão */
   --cor-texto-secundario: #888; /* Cinza Escuro Padrão */
 }
